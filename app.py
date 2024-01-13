@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, yeh ek flask application hai.'
+    return 'Hello world from DMCE.'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port = 5000)
